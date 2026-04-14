@@ -24,7 +24,7 @@ const projects = [
     borderColor: 'rgba(79,142,247,0.3)',
     glowColor: 'rgba(79,142,247,0.2)',
     github: 'https://github.com/M7mednsr/Blogging-Platform',
-    demo: 'https://github.com/M7mednsr/Blogging-Platform',
+    demo: 'https://blogging-platform-rouge-eta.vercel.app',
     tag: 'Blog App',
   },
   {
