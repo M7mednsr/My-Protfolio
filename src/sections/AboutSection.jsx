@@ -75,6 +75,8 @@ const AboutSection = () => {
                   { text: 'React', pos: { top: '16px', right: '-20px' }, color: '#4f8ef7' },
                   { text: 'JS', pos: { bottom: '60px', left: '-24px' }, color: '#a855f7' },
                   { text: 'CSS', pos: { bottom: '20px', right: '-20px' }, color: '#4f8ef7' },
+                  { text: 'TS', pos: { top: '80px', left: '-25px' }, color: '#3178c6' },
+                  { text: 'Angular', pos: { top: '120px', right: '-25px' }, color: '#dd0031' },
                 ].map((badge, i) => (
                   <div key={i} 
                     className="absolute px-3.5 py-1.5 bg-[#0f0f0fe6] rounded-full text-[0.75rem] font-bold font-['Inter',sans-serif] backdrop-blur-md"
@@ -96,7 +98,7 @@ const AboutSection = () => {
           {/* Bio text */}
           <div ref={textRef} className="reveal-right">
             <p className="text-[1.05rem] leading-[1.9] text-(--text-secondary) font-['Inter',sans-serif] mb-6">
-              I'm <strong className="text-(--text-primary) font-bold">Mohamed Nasr</strong>, a passionate Frontend Developer with a deep love for crafting seamless, beautiful web experiences. With a strong foundation in JavaScript and React, I bridge the gap between design and engineering.
+              I'm <strong className="text-(--text-primary) font-bold">Mohamed Nasr</strong>, a passionate Frontend Developer with a deep love for crafting seamless, beautiful web experiences. With a strong foundation in modern technologies like TypeScript, React, and Angular, and empowered by AI dev tools, I bridge the gap between design and engineering.
             </p>
             <p className="text-[1.05rem] leading-[1.9] text-(--text-secondary) font-['Inter',sans-serif] mb-8">
               I specialize in building real-world applications that are not just functional, but truly memorable. From dynamic dashboards to pixel-perfect landing pages, I approach every project with precision, creativity, and purpose.
@@ -104,7 +106,7 @@ const AboutSection = () => {
 
             {/* Tech keywords */}
             <div className="flex flex-wrap gap-2.5">
-              {['React', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'REST APIs', 'Responsive Design', 'Vite'].map(tech => (
+              {['React', 'Angular', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'AI Tools', 'Vite'].map(tech => (
                 <span 
                   key={tech} 
                   className="px-4 py-1.5 bg-[#4f8ef714] border border-[#4f8ef733] rounded-full text-[0.8rem] font-semibold text-[#4f8ef7] font-['Inter',sans-serif] transition-all duration-300 cursor-default hover:bg-[#4f8ef72e] hover:shadow-[0_0_15px_rgba(79,142,247,0.2)]"
@@ -140,6 +142,8 @@ const AboutSection = () => {
         @keyframes float-badge-0 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
         @keyframes float-badge-1 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
         @keyframes float-badge-2 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+        @keyframes float-badge-3 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
+        @keyframes float-badge-4 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-7px); } }
       `}</style>
     </section>
   );

@@ -3,9 +3,9 @@ import ParticleCanvas from '../components/ParticleCanvas';
 
 const TYPED_STRINGS = [
   'Frontend Developer',
-  'React Specialist',
-  'UI/UX Enthusiast',
-  'JavaScript Expert',
+  'React & Angular Specialist',
+  'TypeScript Expert',
+  'AI-Assisted Coder',
 ];
 
 const useTypingEffect = (strings, typingSpeed = 80, deletingSpeed = 40, pauseTime = 2000) => {
